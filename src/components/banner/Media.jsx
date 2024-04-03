@@ -1,6 +1,7 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import { FaTwitter, FaLinkedinIn, FaReact,FaNode,FaHackerrank ,FaGithub } from "react-icons/fa";
+import { SiExpress ,SiMongodb } from "react-icons/si";
+
 const Media = () => {
   return (
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -9,15 +10,26 @@ const Media = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaFacebookF />
-            </span>
-            <span className="bannerIcon">
-              <FaTwitter />
-            </span>
-            <span className="bannerIcon">
-              <FaLinkedinIn />
-            </span>
+            <a href="https://www.hackerrank.com/profile/bs_kalendrasingh">
+              <span className="bannerIcon">
+                <FaHackerrank  />
+              </span>
+            </a>
+            <a href="https://twitter.com/Kalendra2020">
+              <span className="bannerIcon">
+                <FaTwitter />
+              </span>
+            </a>
+            <a href="https://www.linkedin.com/in/kalendra-singh-chauhan-9047a9225">
+              <span className="bannerIcon">
+                <FaLinkedinIn />
+              </span>
+            </a>
+            <a href="https://github.com/KalendraSingh">
+              <span className="bannerIcon">
+                <FaGithub />
+              </span>
+            </a>
           </div>
         </div>
         <div>
@@ -29,13 +41,13 @@ const Media = () => {
               <FaReact />
             </span>
             <span className="bannerIcon">
-              <SiNextdotjs />
+              <FaNode />
             </span>
             <span className="bannerIcon">
-              <SiTailwindcss />
+              <SiMongodb  />
             </span>
             <span className="bannerIcon">
-              <SiFigma />
+              <SiExpress />
             </span>
           </div>
         </div>

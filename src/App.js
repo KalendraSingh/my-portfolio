@@ -5,9 +5,9 @@ import Features from "./components/features/Features";
 import Footer from "./components/footer/Footer";
 import FooterBottom from "./components/footer/FooterBottom";
 import Navbar from "./components/navbar/Navbar";
-import Projects from "./components/projects/Projects";
 import Resume from "./components/resume/Resume";
-import Testimonial from "./components/tesimonial/Testimonial";
+import Project from "./components/projects/Project";
+import Certification from "./components/certification/Certification";
 
 function App() {
   return (
@@ -16,9 +16,9 @@ function App() {
       <div className="max-w-screen-xl mx-auto">
         <Banner />
         <Features />
-        <Projects />
+        <Project/>
         <Resume />
-        <Testimonial />
+        <Certification/>
         <Contact />
         <Footer />
         <FooterBottom />

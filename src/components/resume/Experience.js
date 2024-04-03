@@ -1,5 +1,5 @@
 import React from "react";
-import {motion} from "framer-motion"
+import { motion } from "framer-motion"
 import ResumeCard from "./ResumeCard";
 
 const Experience = () => {
@@ -7,60 +7,51 @@ const Experience = () => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="py-12 font-titleFont flex gap-20"
+      className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
     >
+
       <div>
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
-          <h2 className="text-4xl font-bold">Job Experience</h2>
+          <p className="text-sm text-designColor tracking-[4px]">2020 - 2024</p>
+          <h2 className="text-4xl font-bold">Experience</h2>
         </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title="Nxtwave Disruptive Technologies"
+            subTitle="Industry Ready Certification in Full-Stack Development (2022 - Present)"
+            result="Hyderabad"
+            des="An intensive certification program offered by Nxtwave Disruptive Technologies in partnership with industry leaders, providing hands-on training and mentorship in full-stack development to prepare participants for careers in the tech industry."
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
-          />
-          <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            title="SUMMER INTERSHIP"
+            subTitle="SR Institute of Technology (Jul'23-Sept'23)"
+            result="Lucknow"
+            des="A structured internship program at SR Institute of Technology, offering valuable practical experience and exposure to real-world projects in a react Js, Node js, Expressand MongoDB, fostering skill development and professional growth."
           />
         </div>
       </div>
       <div>
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
-          <h2 className="text-4xl font-bold">Trainer Experience</h2>
+          <p className="text-sm text-designColor tracking-[4px]">2020 - 2024</p>
+          <h2 className="text-4xl font-bold">Development</h2>
         </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-14 w-full h-[650px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Gym Instructor"
-            subTitle="Rainbow Gym Center (2015 - 2020)"
-            result="DHAKA"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            title="Frontend Development"
+            subTitle="React Js, JavaScript, HTML5, CSS3"
+            result="Frontend"
+            des="Focused training on modern frontend technologies including React Js, JavaScript, HTML5, and CSS3, equipping individuals with the skills necessary to build engaging and user-friendly interfaces for web applications."
           />
           <ResumeCard
-            title="Web Developer and Instructor"
-            subTitle="SuperKing College (2010 - 2014)"
-            result="CANADA"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            title="Backend Development"
+            subTitle="Node Js, Express, MongoDB"
+            result="Backend"
+            des="Specialized instruction in backend technologies such as Node Js, Express, and MongoDB, providing a deep understanding of server-side development and database management for creating robust and scalable web applications."
           />
-          <ResumeCard
-            title="School Teacher"
-            subTitle="Kingstar Secondary School (2001 - 2010)"
-            result="NEVADA"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
-          />
+          
         </div>
       </div>
+
     </motion.div>
   );
 };
